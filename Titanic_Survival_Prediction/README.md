@@ -1,72 +1,63 @@
 # 🚢 Titanic Survival Prediction
 
 ## 📌 Project Overview
-This project predicts whether a passenger survived the Titanic disaster using Machine Learning. The model is trained on the famous Titanic dataset by analyzing passenger details such as age, gender, ticket class, fare, family members, and boarding location.
 
-The objective is to understand the complete machine learning workflow, including data preprocessing, feature engineering, model training, and performance evaluation.
+This project predicts whether a passenger survived the Titanic disaster using Machine Learning. A Random Forest Classifier was trained using the Titanic dataset to classify passenger survival based on features such as age, gender, passenger class, fare, and embarkation point.
 
----
-
-## 🎯 Project Objective
-The goal of this project is to build a classification model that can accurately predict the survival of Titanic passengers based on historical data.
+The project demonstrates the complete Machine Learning workflow, including data preprocessing, feature engineering, model training, and performance evaluation.
 
 ---
 
-## 📂 Dataset
-The dataset contains information about 891 passengers, including:
+## 🎯 Objective
 
-- Passenger ID
-- Passenger Class (Pclass)
-- Name
-- Gender
-- Age
-- Number of Siblings/Spouses (SibSp)
-- Number of Parents/Children (Parch)
-- Ticket Number
-- Fare
-- Cabin
-- Port of Embarkation
-- Survival Status (Target Variable)
+To build a Machine Learning classification model that accurately predicts the survival of Titanic passengers using historical passenger data.
 
 ---
 
-## 🛠 Technologies Used
+## 🛠️ Technologies Used
 
 - Python
 - Pandas
 - Scikit-learn
-- Random Forest Classifier
+- Matplotlib
 
 ---
 
-## 🔍 Project Workflow
+## 📂 Dataset
 
-1. Loaded the Titanic dataset.
-2. Explored and analyzed the data.
-3. Handled missing values.
-4. Removed unnecessary columns.
-5. Converted categorical data into numerical format.
-6. Split the dataset into training and testing sets.
-7. Trained a Random Forest Classifier.
-8. Evaluated the model accuracy.
+The dataset contains information about Titanic passengers, including:
+
+- Passenger Class (Pclass)
+- Gender
+- Age
+- Fare
+- Number of Siblings/Spouses (SibSp)
+- Number of Parents/Children (Parch)
+- Embarked Port
+- Survival Status (Target Variable)
+
+---
+
+## ⚙️ Machine Learning Model
+
+- Random Forest Classifier
 
 ---
 
 ## 📊 Model Performance
 
-**Algorithm:** Random Forest Classifier
-
-**Accuracy:** **81.01%**
+- **Model Accuracy:** **81.01%**
 
 ---
 
 ## 📁 Project Structure
 
-```
+```text
 Titanic_Survival_Prediction/
 │
 ├── main.py
 ├── titanic.csv
+├── requirements.txt
 └── README.md
 ```
 
@@ -75,9 +66,9 @@ Titanic_Survival_Prediction/
 ## 🚀 Future Improvements
 
 - Improve model accuracy using hyperparameter tuning.
-- Compare multiple machine learning algorithms.
-- Build a web application using Flask or Streamlit.
-- Deploy the model online.
+- Compare different Machine Learning algorithms.
+- Build an interactive web application using Streamlit or Flask.
+- Add advanced data visualization and model evaluation metrics.
 
 ---
 
@@ -87,7 +78,15 @@ Titanic_Survival_Prediction/
 
 Final Year B.Tech Artificial Intelligence & Data Science Student
 
-Passionate about Artificial Intelligence, Machine Learning, Data Analytics, and building real-world AI solutions.
+Aspiring AI Engineer | Machine Learning | Python | SQL | Power BI | Generative AI
 
-GitHub: https://github.com/Shuayb3693
-LinkedIn: *(https://www.linkedin.com/in/shuayb-mohamed-khan-b00553311?utm_source=share_via&utm_content=profile&utm_medium=member_android)*
+---
+
+## 🌐 Connect With Me
+
+- **GitHub:** https://github.com/Shuayb3693
+- **LinkedIn:** https://www.linkedin.com/in/shuayb-mohamed-khan-b00553311
+
+---
+
+⭐ If you found this project useful, consider giving this repository a **Star** on GitHub!
